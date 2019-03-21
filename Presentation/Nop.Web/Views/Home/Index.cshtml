@@ -5,6 +5,7 @@
     Html.AppendPageCssClassParts("html-home-page");
 }
 <div class="page home-page">
+    <p>wijziging<p>
     <div class="page-body">
         @await Component.InvokeAsync("Widget", new { widgetZone = PublicWidgetZones.HomePageTop })
         @await Component.InvokeAsync("TopicBlock", new { systemName = "HomePageText" })
